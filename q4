@@ -1,0 +1,20 @@
+sp = float(67.836,43)
+rj = float(36.678,66)
+mg = float(29.229,88)
+es = float(27.165,48)
+out = float(19.849,53)
+
+total = float(sp + rj + mg + es + out)
+print(total)
+
+porsp = ((sp/total)*100)
+porrj = ((rj/total)*100)
+pormg = ((mg/total)*100)
+pores = ((es/total)*100)
+porout = ((out/total)*100)
+
+print('Porcentagem de SP {}'.format(porsp))
+print('Porcentagem de RJ {}'.format(porrj))
+print('Porcentagem de MG {}'.format(pormg))
+print('Porcentagem de ES {}'.format(pores))
+print('Porcentagem de OUT {}'.format(porout))
