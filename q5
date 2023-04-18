@@ -1,0 +1,13 @@
+void inverter(char vet[]){
+int i, aux, fim, tam = strlen(vet);
+char novo = malloc((tam + 1) * sizeof(char));
+
+fim = tam - 1;
+for (i = 0; i < tam; i++){
+novo[fim] = vet [i];
+fim--;
+}
+
+novo[i] = '\0';
+return novo;
+}
